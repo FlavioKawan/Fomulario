@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">      
+        <meta name="viemport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+        <link rel="stylesheet" type="text/css" href="Formulario.css" media="screen">
+        <title>Formulario Para Devs</title>
+        
+        
+    </head>
+    
+    
+    <body>
+            <div>
+                <h1 id="titulo"><b>Formulario de Pesquisa</b> </h1>
+                <br>   
+            </div>   
+            <br> 
+        <!--COMEÇO DO FORMULARIO-->
+         
+    <div class="Box">
+            <form action="pagina 2.html">
+                <fieldset Class="Grupo">
+                <!--Campo do Nome com Legenda "nome" e css de classe "campo"-->
+                    <div class="campo">
+                        <label for ="nome"><strong> Coloque seu Nome: </strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>  
+                    <br>
+                <!--campo do sobrenome com legenda "Sobrenome e css de classe "campo-->
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Coloque seu Sobrenome:</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>          
+                </div>            
+                <br>
+                
+
+            <!--Campo do Email-->
+            <div class="campo">
+                <label for="email"><strong>Email:</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+             
+            <br>
+          
+            <!---Data de Nascimento-->      
+            <div class="campo">
+                <label for="Data"><strong>Data de Nascimento:</strong></label>
+                <input type="date" name="Data" id="Data" required>
+            </div>
+            <br>
+
+            <!--Cidade-->   
+            <div class="campo">
+                <label for="Cidade"><strong>Cidade:</strong></label>
+                <input type="text" name="Cidade" id="CIdade" required>
+            </fieldset>    
+            </div>        
+            <br> <br>
+
+            <!--Senioridade-->  
+            <div class="campo">
+                <label for="Senioridade"><strong>Senioridade:</strong></label>
+                <select id="Senioridade required">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Junior</option>
+                    <option>Pleno</option>
+                    <option>Senior</option>                    
+
+                </select>    
+            </div>    
+                        <br><br>    
+            
+                                                                            
+            <!--Campo com as -Senioridade-->   
+            <div id="check">
+                <label><strong>Qual é a Linguagem mais importante da atualidade?</strong></label>
+                <br>
+                <label>
+                    <input type="checkbox" name="devweb" value="python" checked>Python
+                    <br>
+                </label>
+                <label>
+                    <input type="checkbox" name="devweb" value="GO">GO 
+                    <br>
+                </label>
+                <label>
+                    <input type="checkbox" name="devweb" value="Java">Java
+                    <br>
+                </label> 
+                <label>
+                    <input type="checkbox" name="devweb" value="C++">C++
+                    <br>   
+                </label>
+                <label>
+                    <input type="checkbox" name="devweb" value="JavaScript">JavaScript
+                </label>
+            </div>
+            <br><br>
+            <!--Campo de Aplicaçao-->
+            <div= class="campo">
+                <label><strong>Em Qual Aplicação Você Trabalha Ou Estuda?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="Front-end">Front-end
+                    <br>
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="Back-end">Back-end
+                    <br>    
+                </label>      
+                <label>
+                    <input type="radio" name="devweb" value="FullStack">FullStack
+                </label>
+            </div>
+
+        </div>
+        <button class="botao" type="submit" onsubmit="">Concluído</button>
+        
+ 
+             
+
+         
+
+
+
+
+
+
+    </body>
+
+
+
+
+</html>    
